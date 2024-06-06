@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
