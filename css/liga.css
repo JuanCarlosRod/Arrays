@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table,td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: gainsboro;
+}
+
+table {
+    width: 60%;
+    margin: auto;
+}
+
+td{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+    padding: 25px;
+    text-align: center;
+    color: black;
+}

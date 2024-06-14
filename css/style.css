@@ -2,6 +2,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .container {
     width: 50%;
@@ -11,4 +12,37 @@ body{
     align-items: center;
     background-color: black;
     color:white;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+table,td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: gainsboro;
+}
+
+table {
+    width: 15%;
+    margin: auto;
+}
+
+td{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bolder;
+
+    padding: 25px;
+    text-align: center;
+    color: black;
 }
